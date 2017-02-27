@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE Ontology [
+   <!ELEMENT Thing (Person, Entree)>
+   <!ELEMENT Person (Guest, Manager, Chef)>
+   <!ELEMENT Guest (Name, ondiet?)>
+   <!ELEMENT ondiet? (#PCDATA)>
+   <!ELEMENT Manager (Name)>
+   <!ELEMENT Chef (Name)>
+   <!ELEMENT Entree (Name, Calories, Cost, Ingredients, Gluten-free?, Vegetarian, Below500?>
+   <!ELEMENT Calories (#PCDATA)>
+   <!ELEMENT Below500? (#PCDATA)>
+   <!ELEMENT Cost (#PCDATA)>
+   <!ELEMENT Ingredients (#PCDATA)>
+   <!ELEMENT Gluten-free? (#PCDATA)>
+   <!ELEMENT Vegetarian (#PCDATA)>
+   <!ELEMENT Name (#PCDATA)>
+]>
+
+<Ontology1>
+ <Thing>
+  <Person>
+   <Guest> 
+    <Name> "Asad Ali Khan" </Name>
+    <ondiet?> "Yes" </ondiet?>
+   </Guest>
+   <Manager> <Name> "John Stewart" </Name> 
+   </Manager>
+   <Chef> <Name> "Alan Watts" </Name> 
+   </Chef>
+  </Person>
+  <Entree> 
+   <Name> "Vegan Lasagna" </Name>
+   <Calories> 450 </Calories>
+   <Ingredients> "Cheese, Broccoli, Pasta" </Ingredients>
+   <Gluten-free?> "no" </Gluten-free?>
+   <Vegetarian> "yes" </Vegetarian>
+   <Below500> "yes" </Below500>
+  </Entree>
+ </Thing>
+</Ontology1>
+
+<Ontology2>
+ <Thing>
+  <Person>
+   <Guest> 
+    <Name> "Jonathon Matthews" </Name>
+    <ondiet?> "No" </ondiet?>
+   </Guest>
+   <Manager> <Name> "Bruce Lee" </Name> 
+   </Manager>
+   <Chef> <Name> "Gordan Ramsey" </Name> 
+   </Chef>
+  </Person>
+  <Entree> 
+   <Name> "Mushroom Steak" </Name>
+   <Calories> 1000 </Calories>
+   <Ingredients> "Mushroom, Beef, Tomato, Olive oil, Potato" </Ingredients>
+   <Gluten-free?> "yes" </Gluten-free?>
+   <Vegetarian> "no" </Vegetarian>
+   <Below500> "no" </Below500>
+  </Entree>
+ </Thing>
+</Ontology2>
+
+<Ontology3>
+ <Thing>
+  <Person>
+   <Guest> 
+    <Name> "Bill Gates" </Name>
+    <ondiet?> "Yes" </ondiet?>
+   </Guest>
+   <Manager> <Name> "Steve Jobs" </Name> 
+   </Manager>
+   <Chef> <Name> "Anakin Skywalker" </Name> 
+   </Chef>
+  </Person>
+  <Entree> 
+   <Name> "LightSaber Retreat" </Name>
+   <Calories> 1000000 </Calories>
+   <Ingredients> "Plasma coil" </Ingredients>
+   <Gluten-free?> "yes" </Gluten-free?>
+   <Vegetarian> "yes" </Vegetarian>
+   <Below500> "no" </Below500>
+  </Entree>
+ </Thing>
+</Ontology3>
+   
+   
+   
+    
